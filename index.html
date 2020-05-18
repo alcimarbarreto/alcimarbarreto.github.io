@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Pratico Modulo 01 - Color</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <ul class="ncores">
+        <li>
+          (R) Vermelho:
+        </li>
+        <li>
+          (G) Green:
+        </li>
+        <li>
+          (B) Blue:
+        </li>
+      </ul>
+      <ul>
+        <li><input id="Rrange" min="0" max="255" step="1" type="range" /></li>
+        <li><input id="Grange" min="0" max="255" step="1" type="range" /></li>
+        <li><input id="Brange" min="0" max="255" step="1" type="range" /></li>
+      </ul>
+      <ul class="input">
+        <li><input type="text" id="Rinput" readonly /></li>
+        <li><input type="text" id="Ginput" readonly /></li>
+        <li><input type="text" id="Binput" readonly /></li>
+      </ul>
+    </div>
+    <div id="cor"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
