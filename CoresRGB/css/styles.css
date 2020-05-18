@@ -13,9 +13,6 @@ ul {
   margin-top: 30px;
 }
 
-li {
-}
-
 .ncores {
   line-height: 1.7rem;
 }
@@ -24,6 +21,13 @@ li {
   line-height: 1.7rem;
 }
 
+#Rinput,
+#Ginput,
+#Binput {
+  width: 50px;
+  background-color: rgb(206, 205, 205);
+  border: 0.5px solid #000;
+}
 #cor {
   border: 1px solid #000;
   display: flex;
