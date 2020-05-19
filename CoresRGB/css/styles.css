@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(224, 182, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 div {
   width: 100vw;
   height: 50vh;
@@ -28,10 +33,12 @@ ul {
   background-color: rgb(206, 205, 205);
   border: 0.5px solid #000;
 }
+
 #cor {
-  border: 1px solid #000;
+  border: 0, 2px solid #000;
   display: flex;
   width: 100px;
   height: 100px;
   margin: 15px auto;
+  background-color: rgb(206, 205, 205);
 }
