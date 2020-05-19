@@ -1,4 +1,8 @@
 window.addEventListener('load', start);
+Rinput.value = 0;
+Ginput.value = 0;
+Binput.value = 0;
+
 function start() {
   const Rrange = document.querySelector('#Rrange');
   const Rinput = document.querySelector('#Rinput');
