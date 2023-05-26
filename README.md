@@ -1,5 +1,4 @@
 # Alcimar Barreto - Página Principal
-> Visualização de cores a partir da escala RGB
 
 ![Preview](./.github/tela.png)
 
