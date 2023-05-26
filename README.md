@@ -1,6 +1,6 @@
 # Alcimar Barreto - Página Principal
 
-![Preview](./.github/tela.png)
+![Preview](./img/tela.png)
 
  > Portfólio de Estudo HTML & CSS
 
