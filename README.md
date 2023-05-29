@@ -2,6 +2,6 @@
 
 ![Preview](./img/tela.png)
 
- > Portfólio de Estudo HTML & CSS
+ > Portfólio de Estudos HTML & CSS
 
 [Abrir Página](https://alcimarbarreto.github.io/)
