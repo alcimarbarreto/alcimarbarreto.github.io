@@ -6,6 +6,10 @@
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: wrap; /* Se encher a largura, jogua pra linha de baixo  */
 }
 
 body {
@@ -30,12 +34,9 @@ header div {
     width: 120px;
     margin: auto;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-
     border-radius: 50%;
-
     display: flex;
     padding: 4px;
-
     transition: transform .3s;
 }
 
@@ -51,10 +52,12 @@ header div img {
 main {
     max-width: 580px;
     width: 90%;
-    margin: 32px auto;
-
+    margin: auto;
     display: grid;
     gap: 24px;
+    margin: 32px auto;
+    
+    align-items: center;
 }
 
 
@@ -81,14 +84,6 @@ section p {
     color: #A1A1AA;
 }
 
-section ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-
-    margin-top: 24px;
-}
-
 section ul li {
     transition: transform .3s;
 }
@@ -104,9 +99,10 @@ section ul li:hover {
 
 .channel-list img {
     border-radius: 50%; 
+    border: 1px solid #443E54;
     width: 70px;
 }
-
+/*
 main section {
     animation: fromBottom .7s backwards;
 }
@@ -146,4 +142,47 @@ main section:nth-child(3) {
         transform: translateY(0)
     }
 }
+*/
+/* ANIMAÇÃO ...................................................*/
 
+@keyframes deCima {
+    from { 
+        opacity: 0;
+        transform: translateY(-30px); 
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+@keyframes deBaixo {
+    from { 
+        opacity: 0;
+        transform: translateY(30px); 
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+header div {
+    animation: deCima .7s .2s backwards;
+}
+
+section {
+    animation: deBaixo .7s backwards;
+}
+
+section:nth-child(1) {
+    animation-delay: 0;
+}
+
+section:nth-child(2) {
+    animation-delay: .4s;
+}
+
+section:nth-child(3) {
+    animation-delay: .8s;
+}
