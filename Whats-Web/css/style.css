@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 95vh;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body h1 a {
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+body h1 a:hover {
+    color: rgb(189, 159, 85);
+    text-decoration:underline;
+}
+
+#cartao {
+    display: flex;
+    background-color: blanchedalmond;
+    max-width: 520px;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+#cartao .row{
+    margin: 30px 10px 10px 10px !important;
+}
+
+footer {
+    margin-top: 0.5rem;
+    font-size: 10px;
+    color: blanchedalmond;
+    text-align: center;
+}
+footer h2 {
+    font-size: 2em;
+}
+
+[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+    display:none !important;
+}
+ng\:form {
+    display:block;
+}
+.ng-animate-shim {
+    visibility:hidden;
+}
+.ng-anchor {
+    position:absolute;
+}
+.row{
+    --bs-gutter-x: 5.5rem !important;
+}
+
+@media (max-width: 614px) {
+    .btn{
+        margin-bottom: 10px;
+    }
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
