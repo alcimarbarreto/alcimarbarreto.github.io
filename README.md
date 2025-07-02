@@ -1,10 +1,21 @@
+<!--
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=120&section=header"/>
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=8A2BE2&size=45&center=true&vCenter=true&width=1000&lines=<Olá,+Eu+Sou+Alcimar!/>+:%29;<Desenvolvedor+Back-End/>+;<Hello,+I'm+Alcimar!/>+:%29;<Back-End+Developer/>;)](https://git.io/typing-svg)
+-->
+
+<div align="center">
 # Alcimar Barreto - Página Principal
 
 ![Preview](./img/tela.png)
 
- > Portfólio de Estudos HTML & CSS
+Portfólio de Estudos HTML & CSS
 
 [Abrir Página](https://alcimarbarreto.github.io/)
+</div>
+
+---
 
 ## Softskills:
 
@@ -47,14 +58,6 @@
 [![Dio](https://img.shields.io/badge/Dio-5865F2?style=for-the-badge)](https://web.dio.me/users/alcimarg)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alcimargomes/)
 
-
-
-
-
-
-
-
-
 <!--
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=alcimarbarreto&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
 
@@ -82,3 +85,13 @@
 [![Repo DIO Git GitHub](https://github-readme-stats.vercel.app/api/pin/?username=alcimarbarreto&repo=dio-lab-open-source&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/alcimarbarreto/dio-lab-open-source)
 [![Repo DIO Git GitHub](https://github-readme-stats.vercel.app/api/pin/?username=alcimarbarreto&repo=trilha-net-fundamentos-desafio&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/alcimarbarreto/trilha-net-fundamentos-desafio)
 [![Repo DIO Git GitHub](https://github-readme-stats.vercel.app/api/pin/?username=alcimarbarreto&repo=trilha-net-banco-de-dados-desafio&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/alcimarbarreto/trilha-net-banco-de-dados-desafio)
+
+<div align="center">
+  <br><p align="centre"><b>Visitors Count</b></p>  
+    <p align="center"><img align="center" src="https://profile-counter.glitch.me/{alcimarbarreto}/count.svg" /></p> 
+  <br>
+</div>
+
+<!--
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=120&section=footer"/>
+-->
